@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "webpack": "^5.106.2",
+    "webpack-cil": "^0.0.1-security",
+    "webpack-cli": "^7.0.2"
+  }
+}
