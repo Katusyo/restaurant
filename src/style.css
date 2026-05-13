@@ -1,0 +1,176 @@
+:root {
+    --primary: #8B0000;
+    --accent: #D4AF37;
+    --background: #FFF8F0;
+    --text: #2C2C2C;
+}
+
+@font-face {
+    font-family: 'kaushanscript';
+    src: url('./kaushanscript-regular-webfont.woff2') format('woff2'),
+    url('./kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1 {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1, .hero h2 {
+    font-family: 'kaushanscript', cursive;
+}
+
+p {
+    font-family: 'Times New Roman', serif;
+    font-size: 1.1rem;
+    line-height: 1.3;
+}
+
+.hero {
+    position : relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+.hero h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+}
+
+.features {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.feature {
+    flex: 1;
+    background: white;
+    border: 1px solid #eee;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;   
+}
+
+nav {
+    background: var(--primary);
+    padding: 10px;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+nav button:hover {
+    color: var(--accent);
+}
+
+.active {
+    border-bottom: 2px solid var(--accent);
+}
+
+.feature {
+    border: 2px solid var(--accent);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hours {
+    padding: 30px;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.location {
+    padding: 30px;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    background: var(--primary);
+    color: white;
+    text-align: center;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.menu-section {
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+    margin-bottom: 15px;
+    color: var(--primary);
+}
+
+.menu-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu-section td {
+    padding: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-section td:first-child {
+    font-weight: bold;
+    text-align: left;
+    color: var(--primary);
+}
+
+.menu-section td:nth-child(2) {
+    font-style: italic;
+    color: #666;
+}
+
+.menu-section td:last-child {
+    font-weight: bold;
+    text-align: right;
+    color: var(--accent);
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+}
