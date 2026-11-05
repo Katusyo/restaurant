@@ -24,7 +24,7 @@ A single- page restaurant website for fictional dim sum restaurant in Yokohama. 
 ## Run it locally
 
 git clone https://github.com/Katusyo/restaurant.git
-cs restaurant
+cd restaurant
 npm install
 npx webpack serve
 
