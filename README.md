@@ -1,6 +1,6 @@
 # VP Dim Sum Restaurant Page
 
-A single- page restaurant website for fictional dim sum restaurant in Yokohama. The whole site--every page-- is generated with JavaScript: each tab is its own module that builds it DOM from scratch, and switching tabs just clears the page and renders the next module.
+A single- page restaurant website for fictional dim sum restaurant in Yokohama. The whole site--every page-- is generated with JavaScript: each tab is its own module that builds its DOM from scratch, and switching tabs just clears the page and renders the next module.
 
 ## Built with
 
